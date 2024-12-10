@@ -1,1 +1,42 @@
-body{background-color: brown;}
+body{background-color: rgb(255, 255, 255);
+    font-family: "Sora";
+    justify-content: center;
+    
+}
+
+div{
+    justify-self: center;
+    width: 336px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+}
+img{
+    justify-self: center;
+    border-radius: 10px;
+}
+hr{
+    width: 100%;
+    margin: 0;
+}
+.etiqueta{
+    border-radius: 20px;
+    color: #7C19EE;
+    background-color: #F2EAFD;
+    padding: 6px 16px;
+    /*width: 3.5em;*/
+    text-align: center;
+    font-size: 0.625rem;
+    display: inline;
+}
+h1{
+    font-size: 1.125rem;
+}
+.cuerpo{
+    font-size:0.875rem;
+    font-weight: 250;
+}
+.pequenio{
+    font-size:0.75rem;
+}
