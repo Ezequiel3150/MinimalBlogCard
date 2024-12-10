@@ -1,29 +1,38 @@
-body{background-color: rgb(85, 47, 47);
+body{background-color: #FFFFFF;
     font-family: "Sora";
-    justify-content: center;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
     
 }
 
 div{
     justify-self: center;
     width: 336px;
-    background-color: white;
+    background-color: #FFFFFF;
     border-radius: 10px;
     padding: 16px;
     box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+    
+
 }
 img{
     justify-self: center;
     border-radius: 10px;
+    height: 152px;
 }
-hr{
+.separador{
     width: 100%;
     margin: 0;
+    border-top: 2px solid #E5EAF0;
+    ;
 }
 .etiqueta{
     border-radius: 20px;
     color: #7C19EE;
-    background-color: #F2EAFD;
+    background-color: #F8F5FE;
     padding: 6px 16px;
     /*width: 3.5em;*/
     text-align: center;
@@ -32,11 +41,17 @@ hr{
 }
 h1{
     font-size: 1.125rem;
+    color: #20293A;
 }
 .cuerpo{
     font-size:0.875rem;
     font-weight: 250;
+    padding-bottom: 10px;
+    color: #394150;
 }
 .pequenio{
     font-size:0.75rem;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
